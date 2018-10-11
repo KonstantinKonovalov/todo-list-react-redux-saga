@@ -7,7 +7,7 @@ import {
     REQUEST_TOGGLE_COMPLETE_TASK
 } from './actionTypes';
 
-import type { ITask } from '../interfaces/ITask';
+import { type ITask } from '../interfaces/ITask';
 
 export const createTask = (task: ITask) => ({
     type: REQUEST_CREATE_TASK,

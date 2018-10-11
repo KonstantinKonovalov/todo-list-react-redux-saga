@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    user-select: none;
 
     &__delete-icon {
         right: 10px;
